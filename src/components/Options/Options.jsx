@@ -1,5 +1,5 @@
 import css from "./Options.module.css"
-const Options = ({ updateFeedback, resetFeedback, totalFeedback }) => {
+export const Options = ({ updateFeedback, resetFeedback, totalFeedback }) => {
 
     return (        
     <ul className={css.optionsList}>
@@ -11,4 +11,4 @@ const Options = ({ updateFeedback, resetFeedback, totalFeedback }) => {
     )
   };
   
-  export default Options;
+  
